@@ -13,6 +13,6 @@ spec:
       valueFiles:
       - values-prod.yaml 
     path: helm
-    repoURL: https://github.com/taofeekaoyusuf/techtrends_with_kubernetes-argocd-helm
+    repoURL: https://github.com/taofeekaoyusuf/techtrends_with_k8s_argocd_helm
     targetRevision: HEAD
   syncPolicy: {}
