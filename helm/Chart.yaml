@@ -4,7 +4,7 @@ description: techtrends with kubernetes and helm
 keywords:
 - python
 - techtrends 
-version: 3.8.0
+version: 3.7.0
 maintainers:
 - name: TAOY
   email: dhackability@gmail.com
