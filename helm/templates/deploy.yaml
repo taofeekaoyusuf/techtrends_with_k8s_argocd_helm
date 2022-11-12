@@ -14,12 +14,11 @@ spec:
     strategy: {}
     template:
         metadata:
-            creationTimestamp: null
             labels:
                 app: techtrends
         spec:
             containers:
-                - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+                image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
                 name: techtrends
                 imagePullPolicy: {{ .Values.image.pullPolicy }}
                 readinessProbe:
