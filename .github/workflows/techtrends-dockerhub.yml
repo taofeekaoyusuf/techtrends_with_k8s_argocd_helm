@@ -36,5 +36,5 @@ jobs:
           file: ./techtrends/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: dhackbility/techtrends:v1.0.0
+          tags: dhackbility/techtrends:latest
           
