@@ -6,7 +6,7 @@ service:
   protocol: TCP
   type: ClusterIP
 image:
-  repository: dhackbility/techtrends:v1.0.0
+  repository: dhackbility/techtrends
   tag: latest
   pullPolicy: IfNotPresent
 
