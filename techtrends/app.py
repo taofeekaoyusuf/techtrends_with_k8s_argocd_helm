@@ -4,7 +4,7 @@ import sys
 import time
 
 from flask import (Flask, flash, json, jsonify, redirect,
-                render_template, request, url_for)
+                   render_template, request, url_for)
 from werkzeug.exceptions import abort
 
 connection_count = 0
@@ -129,4 +129,4 @@ if __name__ == "__main__":
             logging.StreamHandler(sys.stderr)
         ]
     )
-    app.run(host='0.0.0.0', port='3111')
+    app.run(host='0.0.0.0', port=3111)
