@@ -1,7 +1,7 @@
 # Tech Trends Project.
 [![TechTrends - Package with Docker](https://github.com/taofeekaoyusuf/techtrends_with_k8s_argocd_helm/actions/workflows/techtrends-dockerhub.yml/badge.svg)](https://github.com/taofeekaoyusuf/techtrends_with_k8s_argocd_helm/actions/workflows/techtrends-dockerhub.yml)
 
-TechTrends is an online website used as a news sharing platform, that enables consumers to access the latest news within the cloud-native ecosystem. In addition to accessing the available articles, readers are able to create new media articles and share them. In this project, package and deploy TechTrends to Kubernetes using a CI/CD pipeline.
+TechTrends is an online website used as a news sharing platform, that enables consumers to access the latest news within the cloud-native ecosystem. In addition to accessing the available articles, readers are able to create new media articles and share them. In this project, we packaged and deploy TechTrends Web application tunneling CI/CD pipeline with the aid of tools, including but not limited to, Kubernetes, Argocd, Helm.
 
 ### STEPS IN THE PROJECT
 
